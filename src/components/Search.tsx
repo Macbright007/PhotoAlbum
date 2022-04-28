@@ -15,7 +15,6 @@ const Search = ({value, onChange}:SearchProps) => {
   return (
     <FormStyle>
       <input type="search" placeholder="search for image..." onChange={handleChange}/>
-      {value}
     </FormStyle>
   )
 } 

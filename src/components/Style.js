@@ -7,8 +7,22 @@ export const Container = styled.div`
     max-width: 1500px;
 `
 export const Nav = styled.nav`
-    padding: 10px;
-    border-bottom: 2px solid gray;    
+    padding: 2rem -10rem;
+    // margin-bottom: 90px;
+    border-bottom: 2px solid gray;
+    disply: flex;
+    justify-content: flex-start;
+
+    h1{
+        font-family: cursive;
+        font-weight: 700;
+        font-size: 25px;
+    }    
+    h1 span{
+        font-weight: 800;
+        font-family: cursive;
+        font-size: 5rem;
+    }
 `
 export const Card = styled.div`
     color: blue;
